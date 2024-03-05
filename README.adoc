@@ -1,0 +1,4 @@
+= Kubernetes-related stuff
+Just a bunch of notes and scripts related to Kubernetes
+
+* kubeadm-scripts: Build a Kuubernetes cluster from scratch with kubeadm

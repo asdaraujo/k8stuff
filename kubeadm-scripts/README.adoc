@@ -1,0 +1,24 @@
+= Build a k8s cluster on GCloud with kubeadm
+
+== Prereqs:
+
+* gcloud CLI installed
+** Successfully authenticated with: gcloud auth login
+* jq installed
+* kubectl installed
+
+== Usage:
+
+To create a new cluster execute the following and follow the prompts:
+
+[source,shell]
+----
+./build.sh
+----
+
+To destroy a cluster:
+
+[source,shell]
+----
+./destroy.sh
+----
